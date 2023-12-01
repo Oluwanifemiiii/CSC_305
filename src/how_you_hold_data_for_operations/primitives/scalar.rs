@@ -17,13 +17,11 @@ fn main() {
     let mut mutable = 12; // Mutable `i32`
     mutable = 21;
 
-    // Error! The type of a variable can't be changed.
-    mutable = true;
 
     // Variables can be overwritten with shadowing.
     let mutable = true;
 }
-    fn main_ii() {
+    fn ergo() {
         // Integer addition
         println!("1 + 2 = {}", 1u32 + 2);
     
